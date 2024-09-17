@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --heading-font: Inter, sans-serif;
+  --heading-font-weight: bold;
+  --content-font: "Poppins", sans-serif;
+  --content-font-weight: 400;
+  --text-color: rgba(0, 0, 0, 1);
+  --text-color-hover: rgba(202, 102, 2, 0, 1);
+  --primary-bg-color: rgba(0, 0, 0, 1);
+  --btn-bg: rgba(0, 0, 0, 1);
+  --btn-color: rgba(255, 255, 255, 1);
+  --btn-radius: 10px;
+  --text-size: 1.25rem;
+  --mob-text-size: 1.0rem;
+  --section-heading-size: 2rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 16px;
+}
+
+a {
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-color-hover);
+}
+
+.btn {
+  padding: 8px 25px;
+  font-size: var(--text-size);
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  border-radius: var(--btn-radius);
+  cursor: pointer;
+  border: 1.5px solid var(--btn-bg);
+}
+
+.btn:hover {
+  background-color: var(--btn-color);
+  color: var(--btn-bg);
+}
+
+.main-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.inner-container-normal {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inner-container-full {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.inner-container-narrow {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.section_heading {
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-wrap: balance;
+  line-height: 1.2;
+  padding: 10px 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    padding-inline: 20px;
+    font-size: var(--mob-text-size);
+  }
+
+  .section_heading {
+    font-size: 2rem;
+    padding: 10px 0 20px;
+  }
+}
