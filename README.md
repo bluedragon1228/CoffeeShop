@@ -13,6 +13,7 @@
 - Syntax of JSX
 - Import / Export of function based components
 - Import of files
+- Use of Props | Passing the data from Parent to child component
 
 ### Utilities Used
 
@@ -20,5 +21,14 @@
 - React DOM
 - Vite
 - GitHub
+
+### Development Phases
+
+_Phase 1_
+
+- Header | Home Page
+- Banner | Home Page
+  _Phase 2_
+- Menu/Hot Coffees | Home Page
 
 _Note:_ This is under developement project. Learning and practicing.
