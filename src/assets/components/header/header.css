@@ -6,13 +6,20 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        padding-block: 0;
         gap: 10px;
 
         & .header-logo {
             max-width: 200px;
 
-            & img {
+            & picture {
+                display: block;
                 width: 100%;
+                position: relative;
+
+                & img {
+                    width: 100%;
+                }
             }
         }
 

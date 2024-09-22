@@ -4,12 +4,12 @@ import cupImage from "./banner_tea_cup.png";
 function Banner() {
   return (
     <div className="main-container">
-      <div className="inner-container-narrow banner_flex_main">
+      <div className="inner-container-normal banner_flex_main">
         <div className="banner_felx_img">
-          <div className="banner_image_frame">
-            <span></span>
-          </div>
           <picture>
+            <div className="banner_image_frame">
+              <span></span>
+            </div>
             <source src={cupImage} srcSet={cupImage} type="image/.png" />
             <img src={cupImage} />
           </picture>

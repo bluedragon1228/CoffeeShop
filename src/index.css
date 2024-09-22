@@ -8,12 +8,15 @@
   --text-color: rgba(0, 0, 0, 1);
   --text-color-hover: rgba(202, 102, 2, 0, 1);
   --primary-bg-color: rgba(0, 0, 0, 1);
+  --secondary-color: rgba(143, 88, 67, 1);
+  --transparent: transparent;
   --btn-bg: rgba(0, 0, 0, 1);
   --btn-color: rgba(255, 255, 255, 1);
   --btn-radius: 10px;
   --text-size: 1.25rem;
   --mob-text-size: 1.0rem;
   --section-heading-size: 2rem;
+  --card-heading-size: 1.5rem;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,8 +35,19 @@ body {
 
 body {
   margin: 0;
-  font-family: var(--heading-font);
+  font-family: var(--content-font);
+  font-weight: var(--content-font-weight);
   font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-font-weight);
 }
 
 a {
@@ -69,16 +83,19 @@ a:hover {
 .inner-container-normal {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 50px 30px;
 }
 
 .inner-container-full {
   max-width: 100%;
   margin: 0 auto;
+  padding: 50px 0px;
 }
 
 .inner-container-narrow {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 50px 30px;
 }
 
 .section_heading {
@@ -99,5 +116,13 @@ a:hover {
   .section_heading {
     font-size: 2rem;
     padding: 10px 0 20px;
+  }
+
+  .inner-container-normal {
+    padding-inline: 20px;
+  }
+
+  .inner-container-narrow {
+    padding-inline: 20px;
   }
 }

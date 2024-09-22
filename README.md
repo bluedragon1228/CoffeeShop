@@ -7,14 +7,14 @@
 - This is the Practice React Project by _Muhammad Nouman Akbar_.
 - In this project, I tried to build a simple design in react.
 
-#### Understandings Developed
+### Understandings Developed
 
 - Folder Structure
 - Syntax of JSX
 - Import / Export of function based components
 - Import of files
 
-#### Utilities Used
+### Utilities Used
 
 - React
 - React DOM

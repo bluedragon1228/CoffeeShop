@@ -1,0 +1,9 @@
+.menus-main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.menu-main-headline {
+    font-weight: normal !important;
+}
