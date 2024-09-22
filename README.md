@@ -28,7 +28,6 @@
 
 - Header | Home Page
 - Banner | Home Page
-- Initial Deployment Vercel | Failed
 
 **Phase 2**
 
