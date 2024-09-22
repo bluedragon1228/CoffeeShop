@@ -28,7 +28,9 @@ _Phase 1_
 
 - Header | Home Page
 - Banner | Home Page
-  _Phase 2_
+
+_Phase 2_
+
 - Menu/Hot Coffees | Home Page
 
 _Note:_ This is under developement project. Learning and practicing.
