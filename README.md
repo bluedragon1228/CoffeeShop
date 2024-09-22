@@ -24,12 +24,12 @@
 
 ### Development Phases
 
-_Phase 1_
+** Phase 1 **
 
 - Header | Home Page
 - Banner | Home Page
 
-_Phase 2_
+** Phase 2 **
 
 - Menu/Hot Coffees | Home Page
 
