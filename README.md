@@ -24,13 +24,15 @@
 
 ### Development Phases
 
-** Phase 1 **
+**Phase 1**
 
 - Header | Home Page
 - Banner | Home Page
+- Initial Deployment Vercel | Failed
 
-** Phase 2 **
+**Phase 2**
 
 - Menu/Hot Coffees | Home Page
+- Initial Deployment Github Pages
 
 _Note:_ This is under developement project. Learning and practicing.
