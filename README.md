@@ -1,10 +1,10 @@
 # Coffee Shop | React Project
 
-## _Developer:_ Muhammad Nouman Akbar
+## _Developer:_ Sam Jann T
 
 ### What's In This Project?
 
-- This is the Practice React Project by _Muhammad Nouman Akbar_.
+- This is the Practice React Project by _Sam Jann T_.
 - In this project, I tried to build a simple design in react.
 
 ### Understandings Developed
